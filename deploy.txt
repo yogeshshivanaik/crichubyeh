@@ -1,0 +1,12 @@
+1. Install Node.js (nodejs.org) if you don't have it.
+2. Open a terminal INSIDE this folder (the one containing firebase.json).
+3. Run:
+     npm install -g firebase-tools
+     firebase login
+     firebase deploy
+4. Your site: https://neww-941b4.web.app
+
+Before step 3, create the database once in the Firebase console:
+Build > Firestore Database > Create database (any location).
+"firebase deploy" then also publishes the Firestore rules in firestore.rules.
+To deploy only the website: firebase deploy --only hosting

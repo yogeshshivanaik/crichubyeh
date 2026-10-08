@@ -1,0 +1,26 @@
+{
+  "name": "repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://x-access-token:eyJ0eXAiOiJKV1QiLCJraWQiOiJwRFpsK3MrTmZBTVBCeExqdXlka0dYK2JYV01xbFprc1U1RW1DUE1mQXVnIiwiYWxnIjoiSFMyNTYifQ.eyJzY29wZSI6InJlcG86MjAwZTMwNzYtODI5Yy00Mzk2LTk5ZTQtNjMyZDQ4NjNmMmUwOndyaXRlIiwicmVwb19zbHVnIjoiZXNsaXYtaW5kaWEvY3JpY2h1YnllaCIsImV4cCI6MTc5MTQ4ODUzNywiaWF0IjoxNzkxNDg0OTM3fQ.GfYsDsbfYeByU4vZdDUw7geVOJ_m5lIQ39oUcKA1P_w@hgit.services-prod.nsvcs.net/esliv-india/crichubyeh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@netlify/blobs": "^11.1.4",
+    "@netlify/database": "^2.0.1",
+    "@netlify/functions": "^6.0.2",
+    "drizzle-orm": "^1.0.0-beta.22"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^1.0.0-beta.22"
+  }
+}
